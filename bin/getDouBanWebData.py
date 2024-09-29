@@ -106,9 +106,6 @@ def analysisData(baseurl):
 
     return dataList
 
-def time_stamp():
-    timestamp = time.time()
-    return timestamp
 
 #主程序111
 def main():

@@ -102,7 +102,7 @@ def analysisData(baseurl):
 
     return dataList
 
-
+#主程序
 def main():
     analysisData(baseurl)
     savepath = "C:\\Users\\Administrator\\Desktop\\python_3.8.5\\豆瓣250.xls"

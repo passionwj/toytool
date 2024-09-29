@@ -115,6 +115,7 @@ def main():
     savepath = f"C:\\Users\\Administrator\\Desktop\\豆瓣250{timestamp}.xls"
     book = xlwt.Workbook(encoding="utf-8", style_compression=0)  # 创建Workbook对象
     sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)  # 创建工作表
+
     col = ("电影详情链接", "图片链接", "电影中/外文名", "评分", "评论人数", "概况", "相关信息")
     print(len(dataList))
     for i in range(0, 7):
@@ -123,7 +124,8 @@ def main():
         print('正在保存第' + str((i + 1)) + '条')
         data = dataList[i]
         for j in range(len(data)):
-            sheet.write(i + 1, j, data[j])
+            style = xlwt.easyxf('align:wrap on')
+            sheet.write(i + 1, j, data[j],style)
     book.save(savepath)
 
 

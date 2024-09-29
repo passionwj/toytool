@@ -1,6 +1,8 @@
 import re
 import urllib.error
 import urllib.request
+import bin.TimeTool
+from bin.TimeTool import TimeTool
 
 import xlwt
 from bs4 import BeautifulSoup
@@ -111,7 +113,8 @@ def time_stamp():
 #主程序111
 def main():
     analysisData(baseurl)
-    timestamp = time_stamp()
+    #TimeTool的实例化有点抽象啊，（感觉还是用类来写会更好（AI生成的这段话，没明白）），参数随便输一个就行了，其他的函数自己发挥，那这个对象有个蛋用
+    timestamp = bin.TimeTool.TimeTool("S").make_time_readable()
     savepath = f"C:\\Users\\Administrator\\Desktop\\豆瓣250{timestamp}.xls"
     book = xlwt.Workbook(encoding="utf-8", style_compression=0)  # 创建Workbook对象
     sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)  # 创建工作表

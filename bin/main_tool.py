@@ -1,7 +1,8 @@
-import bin.timeTool
+import bin.TimeTool
 import time
 
-from bin.timeTool import timeTool
+from bin.getDouBanWebData import time_stamp
+from bin.TimeTool import timeTool
 
 
 #from bin.getDouBanWebData import main
@@ -19,7 +20,9 @@ class main_tool:
         #而这个场景生成的是timeTool的实例化对象，又需要传入一个参数，这个参数就是time_str，而这个参数是字符串类型，即我想要用的时间
         time_example  = timeTool("2024-09-29 20:06:10")
         time_one = bin.timeTool.timeTool.get_time(time_example)
+        print(time_stamp())
         print(time_one)
+
         return time_one
 
 

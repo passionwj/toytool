@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f30b2f5d-3459-4216-bdc0-783b7bb86c1d" name="更改" comment="commit 注释">
-      <change afterPath="$PROJECT_DIR$/bin/main_tool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/timeTool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f30b2f5d-3459-4216-bdc0-783b7bb86c1d" name="更改" comment="commit new code">
+      <change afterPath="$PROJECT_DIR$/bin/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/getDouBanWebData.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/getDouBanWebData.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/main_tool.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main_tool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/timeTool.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/TimeTool.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +62,7 @@
   "keyToString": {
     "Python.getDouBanWebData.executor": "Run",
     "Python.main_tool.executor": "Run",
+    "Python.timeTool.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
@@ -72,7 +73,29 @@
       <recent name="C:\Users\Administrator\PycharmProjects\getWebData" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main_tool">
+  <component name="RunManager" selected="Python.getDouBanWebData">
+    <configuration name="TimeTool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="getWebData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\getWebData\bin\TimeTool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="getDouBanWebData" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="getWebData" />
       <option name="ENV_FILES" value="" />
@@ -119,8 +142,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main_tool" />
         <item itemvalue="Python.getDouBanWebData" />
+        <item itemvalue="Python.TimeTool" />
+        <item itemvalue="Python.main_tool" />
       </list>
     </recent_temporary>
   </component>
@@ -164,12 +188,32 @@
       <option name="project" value="LOCAL" />
       <updated>1727596790079</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1727614771557</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727614771557</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit data" />
     <MESSAGE value="commit 注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 注释" />
+    <MESSAGE value="commit new code" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit new code" />
   </component>
 </project>

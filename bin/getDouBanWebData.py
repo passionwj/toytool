@@ -1,9 +1,11 @@
-import time
-import urllib.request, urllib.error
-from bs4 import BeautifulSoup
 import re
+import urllib.error
+import urllib.request
+
 import xlwt
+from bs4 import BeautifulSoup
 import html5lib
+import time
 
 # 定义基础url，发现规律，每页最后变动的是start=后面的数字
 baseurl = "https://movie.douban.com/top250?start="
@@ -102,10 +104,15 @@ def analysisData(baseurl):
 
     return dataList
 
+def time_stamp():
+    timestamp = time.time()
+    return timestamp
+
 #主程序111
 def main():
     analysisData(baseurl)
-    savepath = "C:\\Users\\Administrator\\Desktop\\python_3.8.5\\豆瓣250.xls"
+    timestamp = time_stamp()
+    savepath = f"C:\\Users\\Administrator\\Desktop\\豆瓣250{timestamp}.xls"
     book = xlwt.Workbook(encoding="utf-8", style_compression=0)  # 创建Workbook对象
     sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)  # 创建工作表
     col = ("电影详情链接", "图片链接", "电影中/外文名", "评分", "评论人数", "概况", "相关信息")

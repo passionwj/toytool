@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f30b2f5d-3459-4216-bdc0-783b7bb86c1d" name="更改" comment="commit new code">
+      <change afterPath="$PROJECT_DIR$/bin/OporateExcel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Testxlwt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/ViewWindows.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/getDouBanWebData.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/getDouBanWebData.py" afterDir="false" />
     </list>
@@ -57,6 +60,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.OporateExcel.executor": "Run",
+    "Python.Testxlwt.executor": "Run",
     "Python.getDouBanWebData.executor": "Run",
     "Python.main_tool.executor": "Run",
     "Python.timeTool.executor": "Run",
@@ -70,7 +75,51 @@
       <recent name="C:\Users\Administrator\PycharmProjects\getWebData" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getDouBanWebData">
+  <component name="RunManager" selected="Python.Testxlwt">
+    <configuration name="OporateExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="getWebData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/OporateExcel.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Testxlwt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="getWebData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/Testxlwt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TimeTool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="getWebData" />
       <option name="ENV_FILES" value="" />
@@ -139,7 +188,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Testxlwt" />
         <item itemvalue="Python.getDouBanWebData" />
+        <item itemvalue="Python.OporateExcel" />
         <item itemvalue="Python.TimeTool" />
         <item itemvalue="Python.main_tool" />
       </list>
@@ -209,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727617569918</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1727618566454</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727618566454</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

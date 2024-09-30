@@ -109,28 +109,44 @@ def analysisData(baseurl):
     return dataList
 
 
-#主程序111
-def main():
-    analysisData(baseurl)
-    #TimeTool的实例化有点抽象啊，（感觉还是用类来写会更好（AI生成的这段话，没明白）），参数随便输一个就行了，其他的函数自己发挥，那这个对象有个蛋用
-    timestamp = bin.TimeTool.TimeTool("S").make_time_readable()
-    savepath = f"C:\\Users\\Administrator\\Desktop\\豆瓣250{timestamp}.xls"
-    book = xlwt.Workbook(encoding="utf-8", style_compression=0)  # 创建Workbook对象
-    sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)  # 创建工作表
-
+def opreate_excel(path):
+    book = xlwt.Workbook(encoding="utf-8", style_compression=0)
+    sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)
     col = ("电影详情链接", "图片链接", "电影中/外文名", "评分", "评论人数", "概况", "相关信息")
-    print(len(dataList))
     for i in range(0, 7):
         sheet.write(0, i, col[i])
     for i in range(0, 250):
         print('正在保存第' + str((i + 1)) + '条')
         data = dataList[i]
         for j in range(len(data)):
+            sheet.write(i + 1, j, data[j])
             style = xlwt.easyxf('align:wrap on')
             sheet.write(i + 1, j, data[j],style)
-    book.save(savepath)
+    book.save(path)
+
+#主程序111
+def main():
+    analysisData(baseurl)
+    #TimeTool的实例化有点抽象啊，（感觉还是用类来写会更好（AI生成的这段话，没明白）），参数随便输一个就行了，其他的函数自己发挥，那这个对象有个蛋用
+    timestamp = bin.TimeTool.TimeTool("S").make_time_readable()
+    path = f"C:\\Users\\Administrator\\Desktop\\豆瓣250{timestamp}.xls"
+    # book = xlwt.Workbook(encoding="utf-8", style_compression=0)  # 创建Workbook对象
+    # sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)  # 创建工作表
+    #
+    # col = ("电影详情链接", "图片链接", "电影中/外文名", "评分", "评论人数", "概况", "相关信息")
+    # print(len(dataList))
+    # for i in range(0, 7):
+    #     sheet.write(0, i, col[i])
+    # for i in range(0, 250):
+    #     print('正在保存第' + str((i + 1)) + '条')
+    #     data = dataList[i]
+    #     for j in range(len(data)):
+    #         style = xlwt.easyxf('align:wrap on')
+    #         sheet.write(i + 1, j, data[j],style)
+    # book.save(savepath)
     # path = f"C:\\Users\\Administrator\\Desktop\\豆瓣250{timestamp}.xls"
     # bin.OporateExcel.Xlwtexcel.save_excel_douban(path)
+    opreate_excel(path)
 
 if __name__ == "__main__":
     main()

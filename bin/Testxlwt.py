@@ -114,13 +114,13 @@ def opreate_excel(path):
     sheet = book.add_sheet("豆瓣电影Top250", cell_overwrite_ok=True)
     col = ("电影详情链接", "图片链接", "电影中/外文名", "评分", "评论人数", "概况", "相关信息")
     for i in range(0, 7):
-        sheet.col(0).width = 256 * 30
-        sheet.col(1).width = 256 * 30
-        sheet.col(2).width = 256*30
-        sheet.col(3).width = 256 * 5
-        sheet.col(4).width = 256 * 30
-        sheet.col(5).width = 256 * 30
-        sheet.col(6).width = 256 * 30
+        sheet.col(0).width = 1024 * 30
+        sheet.col(1).width = 1024 * 30
+        sheet.col(2).width = 1024*30
+        sheet.col(3).width = 1024* 5
+        sheet.col(4).width = 1024* 30
+        sheet.col(5).width = 1024* 30
+        sheet.col(6).width = 1024* 30
         sheet.write(0, i, col[i])
     for i in range(0, 250):
         print('正在保存第' + str((i + 1)) + '条')

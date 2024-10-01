@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f30b2f5d-3459-4216-bdc0-783b7bb86c1d" name="更改" comment="commit new code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Testxlwt.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Testxlwt.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -273,7 +272,23 @@
       <option name="project" value="LOCAL" />
       <updated>1727702398713</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1727704633457</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727704633457</updated>
+    </task>
+    <task id="LOCAL-00010" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1727704706746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1727704706746</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

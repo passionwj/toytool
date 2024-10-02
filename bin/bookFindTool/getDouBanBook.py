@@ -13,7 +13,7 @@ def get_doubanbook_page(url):
     request = urllib.request.Request(url=url, headers=headers)
     response = urllib.request.urlopen(request)
     html = response.read().decode('utf-8')
-    #rint(html)
+    print(html)
     return html
 
 def analysisData(baseurl):
@@ -32,5 +32,7 @@ def analysisData(baseurl):
     return item
 
 if __name__ == '__main__':
+    url = 'https://read.douban.com/ebooks/?dcs=book-nav&dcm=douban'
     baseurl = 'https://book.douban.com/'
-    analysisData(baseurl)
+    get_doubanbook_page(url)
+    #analysisData(baseurl)

@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f30b2f5d-3459-4216-bdc0-783b7bb86c1d" name="更改" comment="commit new code">
-      <change afterPath="$PROJECT_DIR$/bin/bookFindTool/getBook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/bookFindTool/bkedbbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/bookFindTool/getBook_xiaoshuo.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/bookFindTool/getDouBanBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bookFindTool/getDouBanBook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/bookFindTool/getBook.py" beforeDir="false" afterPath="$PROJECT_DIR$/bin/bookFindTool/getBook.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,23 +61,29 @@
   "keyToString": {
     "Python.OporateExcel.executor": "Run",
     "Python.Testxlwt.executor": "Run",
+    "Python.bkedbbook.executor": "Run",
     "Python.getBook.executor": "Run",
+    "Python.getBook_xiaoshuo.executor": "Run",
     "Python.getDouBanBook.executor": "Run",
     "Python.getDouBanWebData.executor": "Run",
     "Python.main_tool.executor": "Run",
     "Python.timeTool.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Administrator/PycharmProjects/getWebData/bin/bookFindTool"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\PycharmProjects\getWebData\bin\bookFindTool" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator\PycharmProjects\getWebData\bin" />
       <recent name="C:\Users\Administrator\PycharmProjects\getWebData" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.getBook">
-    <configuration name="OporateExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.getBook_xiaoshuo">
+    <configuration name="bkedbbook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="getWebData" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,33 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/bookFindTool" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/OporateExcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Testxlwt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="getWebData" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/Testxlwt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/bookFindTool/bkedbbook.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,6 +119,28 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/bookFindTool/getBook.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="getBook_xiaoshuo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="getWebData" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bin/bookFindTool" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bin/bookFindTool/getBook_xiaoshuo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,11 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.getBook_xiaoshuo" />
+        <item itemvalue="Python.bkedbbook" />
+        <item itemvalue="Python.getDouBanWebData" />
         <item itemvalue="Python.getBook" />
         <item itemvalue="Python.getDouBanBook" />
-        <item itemvalue="Python.Testxlwt" />
-        <item itemvalue="Python.getDouBanWebData" />
-        <item itemvalue="Python.OporateExcel" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +315,47 @@
       <option name="project" value="LOCAL" />
       <updated>1727772219579</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1727875791056</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727875791056</updated>
+    </task>
+    <task id="LOCAL-00014" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1728142783489</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1728142783490</updated>
+    </task>
+    <task id="LOCAL-00015" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1728142956936</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728142956936</updated>
+    </task>
+    <task id="LOCAL-00016" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1728142981337</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728142981338</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit new code">
+      <option name="closed" value="true" />
+      <created>1728143063023</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728143063023</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

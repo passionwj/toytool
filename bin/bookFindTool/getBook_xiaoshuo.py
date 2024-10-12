@@ -51,22 +51,34 @@ if __name__ == '__main__':
     #url = 'https://read.douban.com/ebooks/?dcs=book-nav&dcm=douban'
     url = 'https://read.douban.com/category/100'
     baseurl = 'https://book.douban.com/'
+    xiaoshuo_url = 'https://read.douban.com/category/100?sort=hot&page='
+
+    for pagenum in range(1, 10):
+        everypage_url = xiaoshuo_url + str(pagenum)
+        print(everypage_url)
+        #analysisData(everypage_url)
+        exp = re.compile(r'<div class="title">(.*?)</div>')
+        html = get_doubanbook_page(everypage_url)
+        soup = bs4.BeautifulSoup(html, 'html5lib')
+        print("书名结果x", re.findall(exp, html))
+
+        #print(soup)
     #get_doubanbook_page(url)
     #print(get_doubanbook_page(url))
-    exp = re.compile(r'<div class="title">(.*?)</div>')
-    expressionObject = re.compile(r'<div[^>]+>([一-龥]+)</div>') #<[^>]+>([一-龥]+)
-    expressionObject1 = re.compile(r'<div[^>]+>(.*?)</div>') #<[^>]+>([一-龥]+)
-    expressionObject2 = re.compile(r'alt="([一-龥]+)') #<[^>]+>([一-龥]+)
 
-    print("书名结果x",re.findall(exp, get_doubanbook_page(url)))
+    #expressionObject = re.compile(r'<div[^>]+>([一-龥]+)</div>') #<[^>]+>([一-龥]+)
+    #expressionObject1 = re.compile(r'<div[^>]+>(.*?)</div>') #<[^>]+>([一-龥]+)
+    #expressionObject2 = re.compile(r'alt="([一-龥]+)') #<[^>]+>([一-龥]+)
+
+
     #expressionObject = re.compile(r'<[^>]+>([一-龥]+)')#< [ ^ >]+ > ([一 - 龥] +)
     #print("正则表达式：",expressionObject)
-    s = re.findall(expressionObject,get_doubanbook_page(url))
-    s2 = re.findall(expressionObject2,get_doubanbook_page(url))
-    print("长度：",len(s2))
-    print("书名结果：",s2)
+    #s = re.findall(expressionObject,get_doubanbook_page(url))
+    #s2 = re.findall(expressionObject2,get_doubanbook_page(url))
+    #print("长度：",len(s2))
+    #print("书名结果：",s2)
     #print("结果：",s2[0])
     #print("结果：",re.findall(expressionObject,get_doubanbook_page(url))[0])
-    print("结果2：",re.findall(r'<div[^>]+></div>', get_doubanbook_page(url)))
+    #print("结果2：",re.findall(r'<div[^>]+></div>', get_doubanbook_page(url)))
     #print("结果2：", re.findall(r'[\u4e00-\u9fff]', get_doubanbook_page(url)))
     #analysisData(url)`
